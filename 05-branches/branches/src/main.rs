@@ -45,5 +45,6 @@ fn main() {
 
     let r = 1..=4;
     println!("printing range");
+    print_range(r.clone().rev());
     print_range(r);
 }
