@@ -12,5 +12,8 @@ fn main() {
         }
     };
 
-    println!("{z}");
+    // Another way:
+    let w = if y < 20 { times_two(y) } else { y };
+
+    println!("{z}, {w}");
 }
