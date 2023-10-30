@@ -1,5 +1,7 @@
 fn print_range<T: std::iter::Iterator>(r: T)
 where
+    // For some reason you don't need the std::iter on using Iterator here.
+    // Maybe it knows from the constraint above?
     <T as Iterator>::Item: std::fmt::Display,
     <T as Iterator>::Item: std::fmt::Debug,
     // Note the below also works, if you use {:?} instead of {i}:
