@@ -11,7 +11,7 @@ fn main() {
     for i in 0..xs.len() + 1 {
         match xs.get(i) {
             Some(x) => println!("{}: {}", i, x),
-            None => println!("Index {} is out of bounds", i),
-        }
+        None => println!("Index {} is out of bounds", i),
+    }
     }
 }

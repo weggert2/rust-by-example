@@ -47,6 +47,6 @@ fn main() {
 
     println!("{}", point);
 
-    let my_list: MyList = MyList(vec![1,2,3]);
+let my_list: MyList = MyList(vec![1,2,3]);
     println!("{}", my_list);
 }
