@@ -23,10 +23,8 @@ struct Rectangle {
 fn main() {
     let name = String::from("Peter");
     let age = 27;
-    let peter = Person { name, age };
+    let _peter = Person { name, age };
 
-    let point1 = Point { x: 5.2, y: 0.2 };
-    let point2 = Point { x: 10.3, y: 11.3 };
-
-
+    let _point1 = Point { x: 5.2, y: 0.2 };
+    let _point2 = Point { x: 10.3, y: 11.3 };
 }
